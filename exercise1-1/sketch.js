@@ -19,6 +19,9 @@ function draw() {
         circleY = (circleY + circleW) % height;
     }
     circleX = (circleX + circleW) % width;
+<<<<<<< HEAD
     
+=======
+>>>>>>> ac2372b21826ddd9f9fcfde609fbbdc021a43f12
     b = (b + 1) % 255;
 }
