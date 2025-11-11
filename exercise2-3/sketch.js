@@ -14,7 +14,7 @@ function draw(){
 }
 
 function mousePressed(){
-    if(mouseX >= x - 150 - && mouseX <= x + 150 && mouseY >= y -100 && mouseY <= y + 100){
+    if(mouseX >= x - 150 && mouseX <= x + 150 && mouseY >= y -100 && mouseY <= y + 100){
         shapeSelected= true;
         fill(150,0,175);
     }
